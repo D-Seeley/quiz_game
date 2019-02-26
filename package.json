@@ -11,11 +11,13 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "express": "^4.16.4",
+    "faker": "^4.1.0",
     "pg": "^7.4.3",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "sequelize": "^4.38.0",
     "socket.io": "^2.2.0",
+    "swear-word-generator": "^1.0.0",
     "uuid": "^3.3.2",
     "webpack": "^4.16.5",
     "webpack-cli": "^3.1.0"

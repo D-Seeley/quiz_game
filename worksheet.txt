@@ -1,0 +1,22 @@
+Game Logic
+
+Event Flow:
+- Host Creates Room
+- Venue Displays Room Info
+- Clients Connects to Room
+- - Clients Wait for Game to Begin
+- Host Initiates Game
+-|-|-Game (round) Begins-|-|-
+- Venue Shows Hint 
+- Server Sends Question Package
+- Client Waits for Unlock Event
+- Host Sends Unlock Event
+- Client Executes Round, Sends Results to Server
+- Venue Waits (maybe shows hint)
+- Round Ends, responses tallied 
+- Venue Shows Fastest Time (or other accolade)
+- Host Begins Next Round
+-|-|-Game (round) Ends-|-|-
+- Winner revealed. 
+- Venue Shows Order of scores, highlights winner
+- 
